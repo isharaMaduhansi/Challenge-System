@@ -1,0 +1,51 @@
+.firs2{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+  
+    
+    
+  }
+
+  .firs4{
+   
+    background-size: cover  ;
+    background-color: rgb(254, 254, 255);
+    background-position:100% 100%;
+}
+
+
+  .av{
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    
+  }
+
+  .ac{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+
+  }
+
+
+  #myDIV {
+    width: 500px;
+    border: 1px solid black;
+    background-image: url('D:/angular/webApp1/src/assets/img/il.jpg');
+    background-position: top left;
+    animation: mymove 4s infinite;
+  }
+
+  @keyframes mymove {
+    50% {background-position: center};
+    50% {font-weight: bold;}
+   
+  }

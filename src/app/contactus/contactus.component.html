@@ -1,0 +1,100 @@
+
+<table width="100%" height="100%">
+
+  <tr>
+    <th class="first" colspan="6" height="300px">
+      <p style="font-family:'times new roman';font-size: 42px;color: white;text-align: center;">Contact Us</p><br>
+      <p style="font-family:'times new roman';font-size: 20px;color: white;text-align: center;">Want to get in touch? We'd love to hear from you.Here's how you can reach us.</p>
+    </th>
+  </tr>
+  <tr>
+  <td style="font-family:'times new roman';background-color:white;"  height="300px" width="330px">
+    <mat-card class="example-card">
+      
+      <mat-card-header>
+        
+        <mat-card-title><font class="para">Get In Touch</font></mat-card-title>
+        <mat-card-subtitle style="color: black;">Call and Message us</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          <img src="./assets/img/i.png" alt="Girl in a jacket" width="40" height="40">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font class="fnt1">+94 76 799 1101 <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+94 71 633 5914
+        </font></p>
+       <br>
+        <p>
+          <img src="./assets/img/14.png" alt="Girl in a jacket" width="40" height="40">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font class="fnt1">xxxx@itfac.mrt.ac.lk</font>
+        </p>
+      </mat-card-content>
+    
+    </mat-card>
+    
+  
+  
+  
+  
+  </td>
+    <td class="ans" colspan="4" rowspan="4" >
+      <p style="font-family:'times new roman';font-weight: bold;font-size: 28px;color:black;text-align: center;margin-right: 100px;">Have Some Questions??</p>
+      <br><br><br>
+
+      <div class="example-container form1">
+        
+        <mat-form-field appearance="fill">
+          <mat-label><font class="fnt">First Name</font></mat-label>
+          <input matInput  [formControl]="first" required>
+        </mat-form-field>
+     
+        <br>
+        <mat-form-field appearance="fill">
+          <mat-label><font class="fnt">Last Name</font></mat-label>
+          <input matInput>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+        <mat-label><font class="fnt">Email</font></mat-label>
+        <input matInput placeholder="pat@example.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+         </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+          <mat-label><font class="fnt">Message</font></mat-label>
+          <textarea matInput [formControl]="area" required ></textarea>
+        </mat-form-field>
+      </div>
+     <br><br>
+      <div class="text-right container">
+      <button type="button" class="btn btn-dark" style="margin-right: 200px;width:130px;height: 50px;font-size: 15px;">Send Message</button></div>
+    </td>
+    </tr>
+    <tr>
+      <td style="font-family:'times new roman';background-color: white;"  height="350px" >
+        <mat-card class="example-card">
+      
+          <mat-card-header>
+            
+            <mat-card-title><font class="para">Address</font></mat-card-title>
+            
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              <a href="https://www.google.lk/maps/place/University+of+Moratuwa/@6.7951328,79.8986037,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae245416b7f34b5:0x7bd32721ab02560e!8m2!3d6.7951275!4d79.900787">
+                <img src="./assets/img/j.png" alt="Girl in a jacket" width="250" height="120" style="border:1px solid black"></a>
+              </p>
+           <br>
+            <p>
+              <img src="./assets/img/20.png" alt="Girl in a jacket" width="40" height="30">
+             <font class="fnt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Moratuwa, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bandaranayake Mawatha, <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Katubedda.</font>
+            </p>
+          </mat-card-content>
+        
+        </mat-card>
+      
+      
+      
+      </td>
+        </tr>
+</table>

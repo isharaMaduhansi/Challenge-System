@@ -1,0 +1,52 @@
+
+<div class="container">
+  
+    <mat-vertical-stepper [linear]="isLinear" #stepper>
+      
+      <mat-step [stepControl]="abFormGroup">
+        <form [formGroup]="abFormGroup">
+          <ng-template matStepLabel>Fill out your email</ng-template>
+          <mat-form-field>
+            <mat-label>email</mat-label>
+            <input matInput formControlName="fourthCtrl" placeholder="abc@gmail.com" required>
+          </mat-form-field>
+          <div>
+            <button class="mgr-btn" mat-button matStepperPrevious>Back</button>
+            <button class="mgr-btn" mat-button matStepperNext>Next</button>
+          </div>
+        </form>
+      </mat-step>
+
+      <mat-step [stepControl]="cdFormGroup">
+        <form [formGroup]="cdFormGroup">
+          <ng-template matStepLabel>Fill out your Password</ng-template>
+          <mat-form-field >
+            <mat-label>Enter your password</mat-label>
+            <input matInput formControlName="fifthCtrl" [type]="hide ? 'password' : 'text'" required>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+          <div>
+            <button class="mgr-btn" mat-button matStepperPrevious>Back</button>
+            <button class="mgr-btn" mat-button matStepperNext>Next</button>
+          </div>
+        </form>
+      </mat-step>
+
+      <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <p>You are now done.</p>
+        <div>
+          <button class="mgr-btn" mat-button matStepperPrevious>Back</button>
+          <button class="mgr-btn" mat-button (click)="stepper.reset()">Reset</button>
+          <a routerLink="Challenge">
+           <button class="mgr-btn" mat-button (click)="meth1()">Log In</button></a>
+        </div>
+      </mat-step>
+      <br> <br> <br> <br> 
+    </mat-vertical-stepper>
+    
+    
+
+</div>

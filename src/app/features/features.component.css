@@ -1,0 +1,142 @@
+
+
+  .first1{
+
+    height: 300px;
+    width: 250px;
+    background-color: rgb(236, 240, 243);
+ 
+   }
+  .second1{
+     background-color: darkblue;
+     
+ 
+  }
+   .third1{
+ 
+     width: 200px;
+     background-color: rgb(236, 240, 243);
+  }
+ 
+  .first2{
+ background-color: rgb(123, 174, 194);
+ opacity: 0.6;
+ 
+ height: 200px;
+ }
+ 
+ .second2{
+ 
+     background-color: rgb(236, 240, 243);
+  
+ }
+ 
+ .scnd{
+ 
+     background-color: rgb(236, 240, 243);
+  
+ }
+ .third2{
+ 
+     background-color:rgb(39, 115, 121);
+     opacity: 0.8;
+     
+ }
+ .first3{
+ 
+     background-color: rgb(236, 240, 243);
+     height: 280px;
+ }
+ .second3{
+ 
+     background-color: rgb(123, 174, 194);
+      opacity: 0.6;
+ }
+ .third3{
+ 
+     background-color: rgb(123, 174, 194);
+     opacity: 0.6;
+ }
+ 
+ .ft{
+ 
+     background-color: white;
+     width: 300px;
+ }
+ .ff{
+ 
+     background-color: rgb(5, 32, 43);
+ }
+ 
+ #myDIV {
+     width: 300px;
+     height: 200px;
+     border: 1px solid black;
+     background-image: url('D:/angular/webApp1/src/assets/img/us.jpg');
+     background-position:100% 100%;
+     background-size: cover  ;
+     
+   }
+   
+   #myDIV1 {
+     animation: mymove1 5s ;
+   }
+ 
+   #myDIV2 {
+     animation: mymove2 5s  ;
+   }
+   
+ 
+   
+ 
+   @keyframes mymove2 {
+     from {background-color: white;}
+     to {background-color: rgb(5, 32, 43);}
+    
+   }
+ 
+   @keyframes mymove1 {
+    
+     50% {height: 0px;}
+    
+   }
+ 
+   
+ 
+   .about{
+   font-family:'times new roman';
+   color: black;
+   text-align: center;
+   margin-right: 50px;
+   font-size: 34px;
+   margin-top: 10px;
+   }
+ 
+   .des1{
+     font-family:'times new roman';
+     color:black;
+     text-align: center;
+     margin-top: 30px;
+     font-size: 24px;
+     font-weight: bold;
+     
+     }
+
+     .desc{
+      font-family:'times new roman';
+      color:rgb(178, 224, 228);
+      text-align: center;
+      margin-top: 28px;
+      font-size: 20px;
+     
+      
+      }
+ 
+     .des2{
+         font-family:'times new roman';
+         color:black;
+         text-align: center;
+         font-size: 18px;
+         margin-left: 160px;
+         
+         }

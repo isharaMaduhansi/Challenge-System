@@ -1,0 +1,63 @@
+
+
+.first{
+    
+  background-image: url('D:/angular/webApp1/src/assets/img/b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form1{
+
+font-size: larger;
+text-align: center;
+background-color: dimgray;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+mat-form-field {
+  width: 70%;
+  margin-right: 100px;
+}
+
+
+.ans{
+ 
+  background-image: url('D:/angular/webApp1/src/assets/img/c.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.example-card {
+  
+  margin-left: 10px;
+  max-width: 300px;
+  background-color: lightgray;
+}
+
+
+
+.para{
+  font-family:'times new roman';
+  font-size: 20px;
+  color:purple;
+ font-weight: bold;
+
+
+}
+
+.fnt{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.fnt1{
+
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+  font-size: 16px;
+}
+

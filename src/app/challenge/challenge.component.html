@@ -1,0 +1,174 @@
+
+   <div >
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand"><font style="font-weight: bold;font-size: 20px;font-family: 'Times New Roman', Times, serif;">Menu</font></a>
+      <form class="form-inline">
+        <div class="dropdown">
+          <button class="btn btn-outline-secondary dropdown-toggle" style="margin-right: 10px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More Challenges
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Challenge 6</a>
+            <a class="dropdown-item" href="#">Challenge 7</a>
+            <a class="dropdown-item" href="#">Challenge 8</a>
+            <a class="dropdown-item" href="#">Challenge 9</a>
+            <a class="dropdown-item" href="#">Challenge 10</a>
+            <a class="dropdown-item" href="#">Challenge 11</a>
+            <a class="dropdown-item" href="#">Challenge 12</a>
+          </div>
+        </div>
+        <a routerLink="/">
+        <button type="button" class="btn btn-outline-secondary">Log Out</button></a>
+      </form>
+    </nav>
+   </div>
+   
+   <div class="row">
+       <div class="col">
+
+        <div class="row">
+            <div class="col-2">
+                <br>
+                <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+                <mat-chip style="width:100px;" *ngFor="let chip of availableColors" selected [color]="chip.color">
+                  {{chip.name}}
+                </mat-chip>
+              </mat-chip-list>
+            </div>
+            <div class="col-2">
+                <mat-card class="example-card">
+                    <mat-card-header>
+                      <div mat-card-avatar class="example-header-image"></div>
+                      <mat-card-title><font style="font-family: 'Times New Roman', Times, serif;">Challenge1</font></mat-card-title>
+                      <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Java</font></mat-card-subtitle>
+                  
+                      <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Difficuly : easy</font></mat-card-subtitle>
+                    </mat-card-header>
+                    <img mat-card-image src="./assets/img/8.png" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                      <p>
+                        Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.
+                      </p>
+                    </mat-card-content>
+                    <mat-card-actions>
+                      <br><br>
+                      <button mat-raised-button color="accent">Solve Challenge1</button>
+                     
+                    </mat-card-actions>
+                  </mat-card>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+              <div class="col-2">
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                    <mat-card-title><font style="font-family: 'Times New Roman', Times, serif;">Challenge2</font></mat-card-title>
+                    <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Python</font></mat-card-subtitle>
+                    <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Difficuly : easy</font></mat-card-subtitle>
+                  
+                  
+                  </mat-card-header>
+                  <img style="height: 150px;" mat-card-image src="./assets/img/9.jpg" alt="Photo of a Shiba Inu">
+                  <mat-card-content>
+                    <p>
+                      Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991.
+                    </p>
+                  </mat-card-content>
+                  <mat-card-actions>
+                    <br><br>
+                    <button mat-raised-button color="accent">Solve Challenge2</button>
+                  </mat-card-actions>
+                </mat-card>
+
+            </div>
+
+        </div>
+          
+    </div>
+       <div class="col">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2">  <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title><font style="font-family: 'Times New Roman', Times, serif;">Challenge3</font></mat-card-title>
+              <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">C++</font></mat-card-subtitle>
+                  
+              <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Difficuly : Hard</font></mat-card-subtitle>
+            </mat-card-header>
+            <img style="height: 150px;" mat-card-image src="./assets/img/10.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                C++ is a high-level, general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes"
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="accent">Solve Challenge3</button>
+            </mat-card-actions>
+          </mat-card></div>
+           <div class="col-2"></div>
+           <div class="col-2"></div>
+           <div class="col-2">  <mat-card class="example-card">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title><font style="font-family: 'Times New Roman', Times, serif;">Challenge4</font></mat-card-title>
+              <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Android</font></mat-card-subtitle>
+                  
+              <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Difficuly : Hard</font></mat-card-subtitle>
+            </mat-card-header>
+            <img style="height: 150px;" mat-card-image src="./assets/img/11.png" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily
+              </p>
+            </mat-card-content>
+            <mat-card-actions><br><br>
+              <button mat-raised-button color="accent">Solve Challenge4</button>
+            </mat-card-actions>
+          </mat-card></div>
+        </div>
+    
+         </div>
+
+
+
+
+       <div class="col">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title><font style="font-family: 'Times New Roman', Times, serif;">Challenge5</font></mat-card-title>
+                <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">HTML</font></mat-card-subtitle>
+                  
+                <mat-card-subtitle><font style="font-family: 'Times New Roman', Times, serif;">Difficuly : Hard</font></mat-card-subtitle>
+              </mat-card-header>
+              <img style="height: 150px;" mat-card-image src="./assets/img/12.png" alt="Photo of a Shiba Inu">
+              <mat-card-content>
+                <p>
+                  Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.
+                </p>
+              </mat-card-content>
+              <mat-card-actions><br><br>
+                <button mat-raised-button color="accent">Solve Challenge5</button>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+
+
+        </div>
+
+
+       </div>
+       
+       
+
+
+
+    
